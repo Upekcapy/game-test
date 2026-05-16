@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bekxhwwm0r573"]
+
+[ext_resource type="Texture2D" uid="uid://dkj2ctb1a0iw5" path="res://Untitled.png" id="1_k5f4k"]
+[ext_resource type="PackedScene" uid="uid://u12mea8vdg0c" path="res://Scenes/player.tscn" id="2_6phgx"]
+
+[node name="Level" type="Node2D" unique_id=1480934642]
+
+[node name="BackGround" type="Sprite2D" parent="." unique_id=1474475122]
+position = Vector2(1839, 2248)
+texture = ExtResource("1_k5f4k")
+
+[node name="Player" parent="." unique_id=353577086 instance=ExtResource("2_6phgx")]
+position = Vector2(79, 997)
